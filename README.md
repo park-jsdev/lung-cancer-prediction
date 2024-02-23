@@ -22,9 +22,9 @@ We will use the public dataset from Kaggle: https://www.kaggle.com/datasets/mysa
 
 ## 2. Exploratory Data Analysis
 ### How was the dataset explored?
-The dataset was first inspected for an overview, such as the variables’ data types, then screened for common issues such as trailing spaces, null, and duplicate values.
-Summary statistics of the data was then obtained, and data visualization was performed to gain insights. 
-The dataset was explored for distributions, outliers, correlations, class imbalances.
+The dataset was first inspected for an overview, such as the variables’ data types, then screened for common issues such as trailing spaces, null, and duplicate values.  
+Summary statistics of the data was then obtained, and data visualization was performed to gain insights.  
+The dataset was explored for distributions, outliers, correlations, class imbalances.  
 Various methods to quantify multicollinearity were explored, including heatmap, variance inflation factor, and eigenvalues.
 
 ### What were the most important aspects of the dataset found from exploratory data analysis?
@@ -64,18 +64,18 @@ Models used:
 
 Evaluation Metric:
 
-Metric: Recall
-Recall = TruePositives / (TruePositives + FalseNegatives)
-Recall is the best metric because here were are concerned about reducing False Negatives. I.e. measuring how many Lung Cancer Patients were missclassified as Non Lung Cancer.
+- Metric: Recall
+- Recall = TruePositives / (TruePositives + FalseNegatives)
+- Recall is the best metric because here were are concerned about reducing False Negatives. I.e. measuring how many Lung Cancer Patients were missclassified as Non Lung Cancer.
 
 Kernel Support Vector Machine was found to be the best model for this task, based on the evaluation metric.
 
 Evaluation:
 
-Recall - 97%
-Accuracy - 98%
-It has only two (FP) misclassifications for class 1.
-AUC - 0.9831
+- Recall - 97%
+- Accuracy - 98%
+- It has only two (FP) misclassifications for class 1.
+- AUC - 0.9831
 
 ### What are plans for further action based on the models?
 I would like to try more techniques to handle multicollinearity: PCA and Ridge Regression or other regularization techniques.
