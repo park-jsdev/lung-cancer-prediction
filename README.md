@@ -2,7 +2,7 @@
 
 This project demonstrates what I learned in Data Science at Georgia Tech’s Bootcamp: https://dsgtbootcamp.netlify.app/schedule. 
 
-1.	## Proposal
+## 1. Proposal
 ### Introduction
 Using symptoms as predictors, can predict the presence of lung cancer using machine learning classification?
 
@@ -20,7 +20,7 @@ If we can obtain a similar accuracy to the example (98%~).
 ### How will the data be collected?
 We will use the public dataset from Kaggle: https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer 
 
-2.	## Exploratory Data Analysis
+## 2. Exploratory Data Analysis
 ### How was the dataset explored?
 The dataset was first inspected for an overview, such as the variables’ data types, then screened for common issues such as trailing spaces, null, and duplicate values.
 Summary statistics of the data was then obtained, and data visualization was performed to gain insights. 
@@ -33,7 +33,7 @@ The most important aspect of the dataset was the class imbalance and the multico
 ### How did the findings of the exploratory data analysis influence the project’s direction?
 The exploration of the dataset influenced the direction of the project by researching methods to deal with the issues.
 
-3.	## Data Preprocessing
+## 3. Data Preprocessing
 ### How was your dataset preprocessed? What were the predominant techniques used and why?
 -	Encoding was used for categorical variables.
 -	Scaling of columns was performed.
@@ -42,7 +42,7 @@ The exploration of the dataset influenced the direction of the project by resear
 -	To handle multicollinearity, PCA was explored. Ridge Regression is another option.
 -	The primary goal is prediction, so multicollinearity was not directly addressed in the final model, but instead focused on evaluation metrics more relevant to the task (Recall).
 
-4.	## Machine Learning
+## 4. Machine Learning
 
 ### What models did your team choose to solve the problem at hand with your preprocessed dataset? 
 
